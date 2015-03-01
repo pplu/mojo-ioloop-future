@@ -31,11 +31,6 @@ Mojo::IOLoop::Future - use L<Future> with L<Mojo::IOLoop>
 Creates Futures that know how to await with Mojo::IOLoop. This permits these
 futures to block until the future is ready
 
-=head1 TODO
-
-Try to combine with Getopt/MooseX::Getopt, so some parameters could be an ARGV::Struct. The
-rest would be parsed Getopt style.
-
 =head1 CONTRIBUTE
 
 The source code and issues are on https://github.com/pplu/mojo-ioloop-future
