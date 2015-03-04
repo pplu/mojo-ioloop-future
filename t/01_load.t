@@ -3,10 +3,10 @@
 use Test::More;
 
 BEGIN {
-  use_ok('Mojo::IOLoop::Future')
+  use_ok('MojoX::IOLoop::Future')
 }
 
-my $argv = Mojo::IOLoop::Future->new;
-isa_ok($argv, 'Mojo::IOLoop::Future');
+my $argv = MojoX::IOLoop::Future->new;
+isa_ok($argv, 'MojoX::IOLoop::Future');
 
 done_testing;

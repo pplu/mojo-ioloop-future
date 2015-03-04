@@ -1,4 +1,4 @@
-package Mojo::IOLoop::Future;
+package MojoX::IOLoop::Future;
   use strict;
   use warnings;
 
@@ -19,12 +19,12 @@ package Mojo::IOLoop::Future;
 
 =head1 NAME
 
-Mojo::IOLoop::Future - use L<Future> with L<Mojo::IOLoop>
+MojoX::IOLoop::Future - use L<Future> with L<Mojo::IOLoop>
 
 =head1 SYNOPSIS
 
-  use Mojo::IOLoop::Future;
-  my $f = Mojo::IOLoop::Future->new;
+  use MojoX::IOLoop::Future;
+  my $f = MojoX::IOLoop::Future->new;
 
 =head1 DESCRIPTION
 
